@@ -1,0 +1,130 @@
+﻿body {
+    background: -webkit-linear-gradient(to right, #3e5151, #decba4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3e5151, #decba4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login_form {
+    text-align: left;
+    display: block;
+    width: 597px;
+    max-width: 100%;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 5px 0 #ccc;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+
+.Label_login {
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.input, .input, select, textarea {
+    padding: 8px;
+    width: 100%;
+    font-size: 0.875em;
+    font-weight: 300;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.label .legend {
+    display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.btn_green {
+    margin-top: 20px;
+    background-color: #808080;
+    border-radius: 3px,4px;
+    color: antiquewhite;
+}
+
+.Resultado {
+    padding: 8px;
+    font-size: 0.875em;
+    font-weight: 300;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.topo {
+    background-color: #1A242E;
+}
+
+.container {
+    float: left;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #DCDCDC;
+    box-shadow: 5px 0px 9px #DCDCDC;
+    background-color: #DCDCDC;
+    color: black;
+    font-weight: hold;
+}
+
+.submit{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1xp solid;
+    color: black;
+    font-weight: bold;
+}
+
+
+.main_header {
+    font-size: 0.875em;
+}
+
+.main_header {
+    background-color: #A7CF45;
+    border-bottom: solid #fff 2px;
+}
+
+.table_div {
+    text-align: left;
+    display: block;
+    width: 95%;
+    max-width: 100%;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 5px 0 #ccc;
+    border-radius: 4px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.txtExcluir
+{
+    width: 32px;
+}

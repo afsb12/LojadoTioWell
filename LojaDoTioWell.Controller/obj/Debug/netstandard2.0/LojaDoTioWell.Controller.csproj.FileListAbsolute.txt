@@ -1,0 +1,9 @@
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\bin\Debug\netstandard2.0\LojaDoTioWell.Controller.deps.json
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\bin\Debug\netstandard2.0\LojaDoTioWell.Controller.dll
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\bin\Debug\netstandard2.0\LojaDoTioWell.Controller.pdb
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\obj\Debug\netstandard2.0\LojaDoTioWell.Controller.csproj.CoreCompileInputs.cache
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\obj\Debug\netstandard2.0\LojaDoTioWell.Controller.AssemblyInfoInputs.cache
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\obj\Debug\netstandard2.0\LojaDoTioWell.Controller.AssemblyInfo.cs
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\obj\Debug\netstandard2.0\LojaDoTioWell.Controller.dll
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\obj\Debug\netstandard2.0\LojaDoTioWell.Controller.pdb
+C:\Users\NET-VM\Documents\Projetos\LojaDoTioWell\LojaDoTioWell.Controller\obj\Debug\netstandard2.0\LojaDoTioWell.Controller.csprojAssemblyReference.cache
