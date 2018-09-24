@@ -38,7 +38,7 @@ namespace LojaDoTioWell.Controller.DAO
         {
             List<Produto> listaprodutos = new List<Produto>();
             SqlConnection con = new SqlConnection(connect);
-            string sqlQuery = "Select c.cod_prod, c.desc_prod, c.val_unit from  produto c";
+            string sqlQuery = "Select cod_prod, desc_prod, val_unit from  produto";
             SqlCommand comand = new SqlCommand(sqlQuery, con);
             con.Open();
             SqlDataReader reader = comand.ExecuteReader();
@@ -70,6 +70,26 @@ namespace LojaDoTioWell.Controller.DAO
                 produto.Descricao = reader["desc_prod"].ToString();
                 produto.ValorUnitario = Convert.ToDecimal(reader["val_unit"].ToString());
  
+            }
+            con.Close();
+
+            return produto;
+        }
+
+         internal Produto GetProdutoByDescricao(string descricaoProduto)
+        {
+            SqlConnection con = new SqlConnection(connect);
+            string sqlQuery = "Select cod_prod, desc_prod, val_unit from  produto  where des_prod = " + descricaoProduto;
+            SqlCommand comand = new SqlCommand(sqlQuery, con);
+            con.Open();
+            SqlDataReader reader = comand.ExecuteReader();
+            Produto produto = new Produto();
+            while (reader.Read())
+            {
+                produto.ID = Convert.ToInt32(reader["cod_prod"].ToString());
+                produto.Descricao = reader["desc_prod"].ToString();
+                produto.ValorUnitario = Convert.ToDecimal(reader["val_unit"].ToString());
+
             }
             con.Close();
 

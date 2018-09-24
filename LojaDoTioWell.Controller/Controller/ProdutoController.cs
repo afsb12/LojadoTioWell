@@ -28,6 +28,11 @@ namespace LojaDoTioWell.Controller.Controller
             return new ProdutoDB().GetProduto(id);
         }
 
+        public Produto GetProdutoByDescricao(string descricaoProduto)
+        {
+            return new ProdutoDB().GetProdutoByDescricao(descricaoProduto);
+        }
+
         public void AtualizarProduto(int id,string descricacao, decimal valorUnitario)
         {
              new ProdutoDB().AtualizarProduto(id,descricacao, valorUnitario);

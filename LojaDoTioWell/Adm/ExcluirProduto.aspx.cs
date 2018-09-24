@@ -13,7 +13,7 @@ namespace LojaDoTioWell.Adm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int cod_prod = Convert.ToInt32(Request.QueryString["CodProd"]);
+            int cod_prod = Convert.ToInt32(Request.QueryString["CodProduto"]);
 
             Produto produto = new ProdutoController().GetProduto(cod_prod);
             txtexcluir.Text = "Deseja mesmo excluir o produto " + produto.Descricao+"?";
@@ -21,7 +21,7 @@ namespace LojaDoTioWell.Adm
 
         protected void btnSim_Click(object sender, EventArgs e)
         {
-            int cod_prod = Convert.ToInt32(Request.QueryString["CodProd"]);
+            int cod_prod = Convert.ToInt32(Request.QueryString["CodProduto"]);
             new ProdutoController().ExcluirProduto(cod_prod);
             Response.Redirect("AdicionarProduto.aspx");
         }

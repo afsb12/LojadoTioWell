@@ -153,13 +153,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Adm\AdicionarCliente.aspx" />
+    <Content Include="Adm\AdicionarPedido.aspx" />
     <Content Include="Adm\AdicionarProduto.aspx" />
     <Content Include="Adm\ConsultarCliente.aspx" />
+    <Content Include="Adm\ConsultarPedido.aspx" />
     <Content Include="Adm\Css\materialize.min.css" />
     <Content Include="Adm\EditarCliente.aspx" />
+    <Content Include="Adm\EditarPedido.aspx" />
     <Content Include="Adm\EditarProduto.aspx" />
     <Content Include="Adm\ExcluirCliente.aspx" />
+    <Content Include="Adm\ExcluirPedido.aspx" />
     <Content Include="Adm\ExcluirProduto.aspx" />
+    <Content Include="Adm\NavBar.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -182,6 +187,9 @@
     </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Adm\Index.aspx" />
+    <Content Include="Imagens\img1.jpg" />
+    <Content Include="Imagens\img2.jpg" />
+    <Content Include="Imagens\img3.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -224,6 +232,13 @@
     <Compile Include="Adm\AdicionarCliente.aspx.designer.cs">
       <DependentUpon>AdicionarCliente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Adm\AdicionarPedido.aspx.cs">
+      <DependentUpon>AdicionarPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adm\AdicionarPedido.aspx.designer.cs">
+      <DependentUpon>AdicionarPedido.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Adm\AdicionarProduto.aspx.cs">
       <DependentUpon>AdicionarProduto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -238,12 +253,26 @@
     <Compile Include="Adm\ConsultarCliente.aspx.designer.cs">
       <DependentUpon>ConsultarCliente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Adm\ConsultarPedido.aspx.cs">
+      <DependentUpon>ConsultarPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adm\ConsultarPedido.aspx.designer.cs">
+      <DependentUpon>ConsultarPedido.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Adm\EditarCliente.aspx.cs">
       <DependentUpon>EditarCliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Adm\EditarCliente.aspx.designer.cs">
       <DependentUpon>EditarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adm\EditarPedido.aspx.cs">
+      <DependentUpon>EditarPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adm\EditarPedido.aspx.designer.cs">
+      <DependentUpon>EditarPedido.aspx</DependentUpon>
     </Compile>
     <Compile Include="Adm\EditarProduto.aspx.cs">
       <DependentUpon>EditarProduto.aspx</DependentUpon>
@@ -258,6 +287,13 @@
     </Compile>
     <Compile Include="Adm\ExcluirCliente.aspx.designer.cs">
       <DependentUpon>ExcluirCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adm\ExcluirPedido.aspx.cs">
+      <DependentUpon>ExcluirPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adm\ExcluirPedido.aspx.designer.cs">
+      <DependentUpon>ExcluirPedido.aspx</DependentUpon>
     </Compile>
     <Compile Include="Adm\ExcluirProduto.aspx.cs">
       <DependentUpon>ExcluirProduto.aspx</DependentUpon>
@@ -304,7 +340,6 @@
   <ItemGroup>
     <Folder Include="Adm\Js\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Imagens\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -29,7 +29,7 @@ namespace LojaDoTioWell.Adm
                     gridClientes.Append(String.Format(" <td> {0}</td> ", cliente.Email));
                     gridClientes.Append(String.Format(" <td> {0}</td> ", cliente.Celular));
                     gridClientes.Append(String.Format(" <td> {0}</td> ", cliente.Saldo));
-                    gridClientes.Append(" <td><a href='EditarCliente.aspx?codCliente=" + cliente.ID + "'>Editar</a>  <a onclick='Confirm()' href='ExcluirCliente.aspx?codCliente="+ cliente.ID+"' >Excluir</a></td>");
+                    gridClientes.Append(" <td><a id='editar' href='EditarCliente.aspx?codCliente=" + cliente.ID + "'>Editar</a>  <a id='excluir' href='ExcluirCliente.aspx?codCliente="+ cliente.ID+"' >Excluir</a></td>");
                     gridClientes.Append(" <tr>");
 
                 }
@@ -40,6 +40,12 @@ namespace LojaDoTioWell.Adm
         protected void AdcionarCliente_Click(object sender, EventArgs e)
         {
             Response.Redirect("AdicionarCliente.aspx");
+        }
+
+        protected void btnPedido_Click(object sender, EventArgs e)
+        {
+            //Response.Redirect("#");
+            return;
         }
     }
 }

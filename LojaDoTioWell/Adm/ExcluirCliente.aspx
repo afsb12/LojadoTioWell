@@ -12,7 +12,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="confirm_form">
          <asp:Label runat="server" ID="txtexcluir"  class="txtExcluir"/>
             <br />
          <asp:Button text="Sim" runat="server" id="btnSim" class="submit input" OnClick="btnSim_Click" />  <asp:Button text="Não" runat="server" id="btnNao" class="submit input" OnClick="btnNao_Click" />  

@@ -20,6 +20,24 @@
     margin-bottom: 25px;
 }
 
+.confirm_form 
+{
+    text-align: center;
+    display: block;
+    width: 375px;
+    max-width: 100%;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 5px 0 #ccc;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
 
 .Label_login {
     padding-bottom: 20px;
@@ -127,4 +145,28 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 .txtExcluir
 {
     width: 32px;
+}
+#btnSim:hover, #InserirProduto:hover, #AdcionarCliente:hover, #btnPedido:hover, #inserirPedido:hover{
+    background-color: #3CB371
+}
+#editar:hover {
+    color: #3CB371
+}
+
+#btnNao:hover {
+    background-color: #FF0000
+}
+#excluir:hover {
+    color: #FF0000
+}
+
+#btnPedido{
+
+   margin-left: 75%;
+    margin-right: 0px;
+}
+
+
+tr:hover{
+    background-color: darkgray;
 }

@@ -28,7 +28,7 @@ namespace LojaDoTioWell.Adm
                     gridProdutos.Append(String.Format(" <td> {0}</td> ", produto.ID));
                     gridProdutos.Append(String.Format(" <td> {0}</td> ", produto.Descricao));
                     gridProdutos.Append(String.Format(" <td> {0}</td> ", produto.ValorUnitario));
-                    gridProdutos.Append(" <td><a href='EditarProduto.aspx?codProd=" + produto.ID + "'>Editar</a>  <a onclick='Confirm()' href='ExcluirProduto.aspx?codProduto=" + produto.ID + "' >Excluir</a></td>");
+                    gridProdutos.Append(" <td><a id='editar' href='EditarProduto.aspx?codProd=" + produto.ID + "'>Editar</a>  <a id='excluir' href='ExcluirProduto.aspx?codProduto=" + produto.ID + "' >Excluir</a></td>");
                     gridProdutos.Append(" <tr>");
 
                 }

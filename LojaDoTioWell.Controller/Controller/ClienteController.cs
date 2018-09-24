@@ -32,6 +32,11 @@ namespace LojaDoTioWell.Controller.Controller
             return new ClienteDB().GetCliente(id);
         }
 
+        public Cliente GetClienteByName(string nome)
+        {
+            return new ClienteDB().GetClienteByName(nome);
+        }
+
         public void ExcluirCliente(int id)
         {
             new ClienteDB().ExcluirCliente(id);
